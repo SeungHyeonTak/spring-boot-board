@@ -33,11 +33,8 @@ spring:
 #  h2:
 #    console:
 #      enabled: true
-  sql:
-    init:
-      mode: always
-  data:
-    rest:
+  sql.init.mode: always
+  data.rest:
       base-path: /api
       detection-strategy: annotated
 
